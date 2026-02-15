@@ -1,0 +1,16 @@
+# Google Drive
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# Document loaders
+pypdf>=3.15.0
+python-docx>=1.0.0
+
+# LLM (OpenRouter — OpenAI-совместимый API)
+openai>=1.0.0
+
+# Utils
+python-dotenv>=1.0.0
+PyYAML>=6.0
+tqdm>=4.65.0

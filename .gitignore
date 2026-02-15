@@ -1,0 +1,16 @@
+7/
+.venv/
+.env
+credentials.json
+token.json
+auth_debug.py
+auth_test.py
+__pycache__/
+*.pyc
+.cache/
+
+# Go
+/bin/
+*.exe
+*.test
+vendor/
