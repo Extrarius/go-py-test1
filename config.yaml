@@ -1,0 +1,20 @@
+# Режимы: fast (поверхностно), deep (детально)
+mode: fast
+
+# Источник: drive (Google Drive API), local (локальная папка)
+source: drive
+# При source: local — путь к папке с файлами (иначе используется cache_dir)
+# local_dir: ./docs
+
+# Пути (переопределяются через .env)
+# credentials_path: credentials.json
+# cache_dir: .cache
+
+# Лимит токенов на чанк
+chunk_tokens: 4000
+
+# Параллелизм LLM (1 — для бесплатных моделей)
+llm_concurrency: 1
+
+# Модель OpenRouter (переопределяется через .env OPENROUTER_MODEL)
+model: deepseek/deepseek-v3.2
